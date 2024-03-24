@@ -15,3 +15,6 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+/* <form>
+                  <button className="bg-green-500 px-5 rounded-2xl py-0.5"  onSubmit={submit}>RETRY</button>
+                </form>*/

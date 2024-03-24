@@ -279,15 +279,13 @@ export default function Game() {
     }
     //console.log(count);
     function submit(e){
-        console.log('restart');
+        //console.log('restart');
     }
     if (currentGoals >= target) {
         return (
             <div className="mt-6 flex justify-center gap-12 text-3xl font-bold text-green-500">
                 YOU WIN {currentGoals} GOALS ACHIEVED
-                <form>
-                  <button className="bg-red-500 text-green-400 px-5 rounded-2xl py-0.5"  onSubmit={submit}>WIN AGAIN</button>
-                </form>
+               
             </div>
         );
     }
@@ -295,9 +293,7 @@ export default function Game() {
         return (
             <div className="mt-6 flex justify-center gap-12 text-3xl font-bold text-red-700">
                 YOU LOSE ONLY {currentGoals} GOALS ACHIEVED
-                <form>
-                  <button className="bg-green-500 px-5 rounded-2xl py-0.5"  onSubmit={submit}>RETRY</button>
-                </form>
+               
             </div>
         );
     }
