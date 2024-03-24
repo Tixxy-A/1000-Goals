@@ -27,7 +27,7 @@ import onana from '../photo/onana.jpg'
 import dijk from '../photo/dijk.jpg'
 import ini from '../photo/ini.jpg'
 
-export default [
+const arr= [
     {
         name: 'Lewandowski',
         bundesliga: 312,
@@ -337,3 +337,4 @@ export default [
         photo: onana
     },
 ]
+export default arr;
