@@ -278,9 +278,7 @@ export default function Game() {
 
     }
     //console.log(count);
-    function submit(e){
-        //console.log('restart');
-    }
+   
     if (currentGoals >= target) {
         return (
             <div className="mt-6 flex justify-center gap-12 text-3xl font-bold text-green-500">
