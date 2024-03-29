@@ -77,6 +77,8 @@ export default function Game() {
             name: player.name,
             goal: player.premeire
         })
+        setPlayer(stat[Math.floor(Math.random() * stat.length)]);
+        setSelect(true);
     }
     function handler2() {
         if (!player) {
@@ -96,6 +98,8 @@ export default function Game() {
             name: player.name,
             goal: player.laliga
         })
+        setPlayer(stat[Math.floor(Math.random() * stat.length)]);
+        setSelect(true);
     } function handler3() {
         if (!player) {
             alert('please Genrate Player');
@@ -114,6 +118,8 @@ export default function Game() {
             name: player.name,
             goal: player.bundesliga
         })
+        setPlayer(stat[Math.floor(Math.random() * stat.length)]);
+        setSelect(true);
     } function handler4() {
         if (!player) {
             alert('please Genrate Player');
@@ -132,6 +138,8 @@ export default function Game() {
             name: player.name,
             goal: player.seriea
         })
+        setPlayer(stat[Math.floor(Math.random() * stat.length)]);
+        setSelect(true);
     } function handler5() {
         if (!player) {
             alert('please Genrate Player');
@@ -150,6 +158,8 @@ export default function Game() {
             name: player.name,
             goal: player.ligue1
         })
+        setPlayer(stat[Math.floor(Math.random() * stat.length)]);
+        setSelect(true);
     } function handler6() {
         if (!player) {
             alert('please Genrate Player');
@@ -168,6 +178,8 @@ export default function Game() {
             name: player.name,
             goal: player.ucl
         })
+        setPlayer(stat[Math.floor(Math.random() * stat.length)]);
+        setSelect(true);
     } function handler7() {
         if (!player) {
             alert('please Genrate Player');
@@ -186,6 +198,8 @@ export default function Game() {
             name: player.name,
             goal: player.national
         })
+        setPlayer(stat[Math.floor(Math.random() * stat.length)]);
+        setSelect(true);
     }
     function handler8(e) {
         e.preventDefault();
@@ -275,6 +289,8 @@ export default function Game() {
                 goal: player.national
             })
         }
+        setPlayer(stat[Math.floor(Math.random() * stat.length)]);
+        setSelect(true);
 
     }
     //console.log(count);
